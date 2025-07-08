@@ -1,0 +1,27 @@
+.glass-footer {
+  text-align: center;
+  padding: 1rem;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.056);
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+  position: fixed;
+  bottom: 10px;
+  width: calc(100% - 40px);
+  left: 48%;
+  transform: translateX(-50%);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.socials a:hover {
+  color: #00d4ff;
+}
