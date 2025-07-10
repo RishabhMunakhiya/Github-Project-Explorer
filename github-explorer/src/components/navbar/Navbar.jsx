@@ -10,6 +10,7 @@ function Navbar() {
         <li><Link to="/about">About Us</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/contact">Contact Us</Link></li>
+        <li><a href="/bookmarks" className='bookmark'>Bookmarks</a></li>
       </ul>
     </nav>
   );

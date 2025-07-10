@@ -1,0 +1,21 @@
+.bookmark-btn {
+  margin-top: 10px;
+  border: 1px solid #fff;
+  background: linear-gradient(135deg, #c9516f, #535da2);
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s transform 0.3s;
+}
+.bookmark-btn:hover {
+  background: linear-gradient(135deg, #535da2, #c9516f);
+  color: white;
+  transform: scale(1.05);
+}
+
+.note-input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
