@@ -6,6 +6,8 @@ import Contact from "./pages/contact/Contact";
 import Services from "./pages/services/Services";
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import Analytics from "./pages/analytics/Analytics";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/analytics" element={<Analytics />} />
       </Routes>
       <Footer />
     </Router>
