@@ -1,4 +1,4 @@
-.glass-navbar {
+/* .glass-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,9 +10,9 @@
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 8px 32px rgba(130, 128, 128, 0.223);
-}
+} */
 
-.glass-navbar h2 {
+/* .glass-navbar h2 {
   font-size: 1.8rem;
 }
 
@@ -20,26 +20,107 @@
   display: flex;
   list-style: none;
   gap: 2rem;
+/* } */
+
+
+/* src/components/navbar/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin: 20px;
+  background: linear-gradient(135deg, rgba(176, 73, 73, 0.3), rgba(45, 51, 130, 0.3));
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(130, 128, 128, 0.223);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.glass-navbar a {
+.navbar-logo {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
   color: white;
   text-decoration: none;
   font-weight: 500;
   position: relative;
+  transition: color 0.3s ease;
 }
 
-.glass-navbar a::after {
+.navbar-links a::after {
   content: '';
   position: absolute;
   width: 0%;
   height: 2px;
   bottom: -2px;
   left: 0;
-  background:linear-gradient(135deg, #ab51c9, #5395a2);
+  background: linear-gradient(135deg, #ab51c9, #5395a2);
+  transition: width 0.3s ease;
+}
+
+.navbar-links a:hover::after {
+  width: 100%;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background: white;
   transition: 0.3s ease;
 }
 
-.glass-navbar a:hover::after {
-  width: 100%;
+/* Transform bars into X */
+.rotate1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.rotate2 {
+  transform: rotate(-45deg) translate(5px, -7px);
+}
+.hide {
+  opacity: 0;
+}
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .navbar-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(11, 11, 11, 0.83);
+    backdrop-filter: blur(8px);
+    padding: 1rem 0;
+    display: none;
+    border-radius: 20px;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
 }
