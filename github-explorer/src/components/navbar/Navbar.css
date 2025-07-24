@@ -1,29 +1,4 @@
-/* .glass-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  margin: 20px;
-  background: linear-gradient(135deg, rgba(176, 73, 73, 0.3), rgba(45, 51, 130, 0.3));
-  backdrop-filter: blur(12px);
-  border-radius: 20px;
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px rgba(130, 128, 128, 0.223);
-} */
 
-/* .glass-navbar h2 {
-  font-size: 1.8rem;
-}
-
-.glass-navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-/* } */
-
-
-/* src/components/navbar/Navbar.css */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -138,7 +113,7 @@
 }
 @media (min-width: 768px)  {
   .navbar {
-    width: 95%;
+    width: 97%;
   }
   
   

@@ -1,10 +1,10 @@
 .glass-footer {
   text-align: center;
-  padding: 1rem;
+  padding: 2rem;
   backdrop-filter: blur(10px);
   background: rgba(255, 255, 255, 0.056);
   color: white;
-  margin: 20px;
+  margin: 20px ;
   border-radius: 20px;
   position: relative;
   bottom: 10px;
@@ -15,13 +15,58 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 .socials a {
-  margin: 0 10px;
   color: white;
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
 
 .socials a:hover {
   color: #00d4ff;
+}
+
+/* Media Queries for Smooth Responsiveness */
+
+/* Small devices (phones) */
+@media (max-width: 600px) {
+  .glass-footer {
+    left: 46.5%;
+  }
+
+  .socials {
+    gap: 10px;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 601px) and (max-width: 1023px) {
+  .glass-footer {
+    left: 47.5%;
+    margin-bottom: 0;
+  }
+
+  .socials {
+    gap: 15px;
+  }
+}
+
+/* Large devices (laptops and up) */
+@media (min-width: 1024px) {
+  .glass-footer {
+    left: 48%;
+  }
+
+  .socials {
+    gap: 12px;
+  }
 }

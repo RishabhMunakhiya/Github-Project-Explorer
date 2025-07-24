@@ -14,7 +14,7 @@ body {
   background-size: cover;
   color: white;
   min-height: 100vh;
-  padding-bottom: 80px; /* leave space for footer */
+  padding-bottom:10px; /* leave space for footer */
 }
 
 /* Optional: smooth hover */

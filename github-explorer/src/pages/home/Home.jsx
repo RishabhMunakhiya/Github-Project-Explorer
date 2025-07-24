@@ -17,7 +17,7 @@ function Home() {
 
   return (
     <div className="home-page">
-      <h2 style={{ color: "white", textAlign: "center" }}>🔥 Trending Repositories</h2>
+      <h2 style={{ color: "white", textAlign: "center" , marginBottom: "50px" }}>🔥 Trending Repositories</h2>
       {loading ? (
         <p style={{ color: "white", textAlign: "center" }}>Loading...</p>
       ) : (

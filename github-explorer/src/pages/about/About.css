@@ -1,0 +1,68 @@
+/* src/pages/about/About.css */
+.about-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-card {
+  max-width: 900px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  box-shadow: 0 0 25px rgba(100, 61, 116, 0.1);
+  color: #ffffff;
+  animation: fadeIn 0.7s ease;
+}
+
+.about-card h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #c887cc9e;
+}
+
+.about-card h3 {
+  margin-top: 2rem;
+  color: #7e3e94;
+}
+
+.about-card p {
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .about-card h1 {
+    font-size: 1.5rem;
+  }
+}
