@@ -7,7 +7,7 @@ const About = () => {
     <div className="about-container">
       <div className="about-card">
         <div className="about-image">
-          <img src="https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg" alt="GitHub Explorer" />
+          <img src="/G-modified.png" />
         </div>
         <h1>About GitHub Explorer</h1>
         <p>
