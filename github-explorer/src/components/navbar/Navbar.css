@@ -78,7 +78,7 @@
 /* Responsive Style */
 @media (max-width: 768px) {
   .navbar{
-    width: 90%;
+    width: 95%;
     padding: 1rem;
   }
   .navbar-links {
