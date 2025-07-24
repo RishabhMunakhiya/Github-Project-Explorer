@@ -11,20 +11,24 @@ img{
     margin: 0 auto;
     border-radius: 50%;
     width: 150px;
+    border: 2px solid #9d9d9d;
     height: 150px;
     object-fit: cover;
+    box-shadow: 0 0 25px rgba(136, 83, 179, 0.497);
+    
 }
 
 .about-card {
-  max-width: 900px;
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(12px);
   border-radius: 20px;
-  padding: 3rem 2rem;
-  box-shadow: 0 0 25px rgba(100, 61, 116, 0.1);
-  color: #ffffff;
-  animation: fadeIn 0.7s ease;
+  padding: 2.5rem 2rem;
+  max-width: 600px;
+  width: 100%;
+  color: white;
+  animation: fadeIn 0.5s ease;
+  box-shadow: 0 0 25px rgba(245, 245, 245, 0.12);
 }
 
 .about-card h1 {

@@ -8,15 +8,16 @@
 }
 
 .services-card {
-  max-width: 800px;
-   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(12px);
   border-radius: 20px;
-  padding: 3rem 2rem;
-  box-shadow: 0 0 25px rgba(203, 189, 203, 0.12);
-  color: #ffffff;
-  animation: fadeIn 0.7s ease;
+  padding: 2.5rem 2rem;
+  max-width: 600px;
+  width: 100%;
+  color: white;
+  animation: fadeIn 0.5s ease;
+  box-shadow: 0 0 25px rgba(245, 245, 245, 0.12);
 }
 
 .services-card h1 {

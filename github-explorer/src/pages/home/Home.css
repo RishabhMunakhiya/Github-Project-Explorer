@@ -51,12 +51,12 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border-radius: 20px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   color: white;
-  transition: transform 0.3s , background 0.3s, border 0.3s;
+  transition: transform 0.3s , background 0.3s, border 0.3s,  box-shadow 0.3s;
 }
 
 .repo-card:hover {
+  box-shadow: 0 8px 32px rgba(132, 130, 132, 0.289);
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.2);
