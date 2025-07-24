@@ -21,14 +21,25 @@
 }
 .bookmarks-page{
   padding: 20px 20px 0;
-  background: #6f6d6d3f;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   max-width: 600vw;
   height: 100vh;
-  margin: 30px ;
+  margin: 15px ;
   overflow-y: auto;
   scrollbar-width: none;
 }
+/* Small devices (phones) */
+@media (max-width: 768px) {
+  .bookmarks-page {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 
