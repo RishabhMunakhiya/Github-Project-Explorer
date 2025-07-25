@@ -35,6 +35,13 @@
   background-size: 16px;
 }
 /* Styling dropdown options */
+.filters select option {
+  background: #222;
+  border-radius: 15px 15px 15px 15px; /* round curved corners */
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
 
 
 /*  */
