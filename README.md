@@ -81,7 +81,7 @@ src/
 ## 📦 Installation
 * **Clone the repository:**
 ```js
-git clone https://github.com/your-username/github-project-explorer.git
+git clone https://github.com/RishabhMunakhiya/Github-Project-Explorer.git
 cd github-project-explorer
 
 ```
